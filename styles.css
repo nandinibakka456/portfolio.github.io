@@ -34,26 +34,38 @@ body {
 }
 
 section {
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
+
+    
 section h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #0e4a54; /* Set the section heading color to a shade of blue */
+    color: #44acbe; /* Set the section heading color to a shade of blue */
 }
 
 .card {
-    max-width: 18rem;
-    margin: auto;
+    max-width: 100rem;
     background-color: #040404; /* Set the card background color to black */
-    color: #fff;
-    border: 1px solid #fff; /* Set the border color to white */
 }
 
 .card-title {
     color: #184b52; /* Set the card title color to a shade of blue */
 }
+
+/* Adjust the background color and text color for collapsed content */
+.collapse.show {
+    background-color: #fff; /* Set the background color to white */
+    color: #000; /* Set the text color to black */
+}
+/* Add this CSS to your existing stylesheet or in a <style> block */
+.download-button {
+    width: 15em;
+    bottom: 10px;
+    left: 10px;
+}
+
 
 footer {
     background-color: #000; /* Set the background color of the footer */
@@ -98,4 +110,8 @@ footer {
 #projects .btn:hover {
     background-color: #17a2b8; /* Change background color on hover */
     color: #fff; /* Change text color on hover */
+}
+.icon {
+    margin: 10px;
+    font-size: 2em; /* Adjust the size as needed */
 }
