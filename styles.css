@@ -4,14 +4,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #000; /* Set the background color to black */
-    color: #fff; /* Set the text color to white */
-    padding-top: 56px; /* Add space for the fixed navbar */
+    background-color: #000; 
+    color: #fff; 
+    padding-top: 56px; 
 }
 
 .navbar {
     padding: 1rem;
-    background-color: #000; /* Set the background color of the Navbar */
+    background-color: #000; 
 }
 
 .navbar-brand {
@@ -42,24 +42,24 @@ section {
 section h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #44acbe; /* Set the section heading color to a shade of blue */
+    color: #44acbe; 
 }
 
 .card {
     max-width: 100rem;
-    background-color: #040404; /* Set the card background color to black */
+    background-color: #040404; 
 }
 
 .card-title {
-    color: #184b52; /* Set the card title color to a shade of blue */
+    color: #184b52; 
 }
 
-/* Adjust the background color and text color for collapsed content */
+
 .collapse.show {
-    background-color: #fff; /* Set the background color to white */
-    color: #000; /* Set the text color to black */
+    background-color: #fff; 
+    color: #000; 
 }
-/* Add this CSS to your existing stylesheet or in a <style> block */
+
 .download-button {
     width: 15em;
     bottom: 10px;
@@ -68,7 +68,7 @@ section h2 {
 
 
 footer {
-    background-color: #000; /* Set the background color of the footer */
+    background-color: #000; 
 }
 .education-box:hover {
     background-color: #c5c9ca; 
@@ -78,7 +78,7 @@ footer {
 
 
 .education-box {
-    height: 250px; /* Adjust the height as needed */
+    height: 250px; 
 }
 
 .education-box h3 {
@@ -91,27 +91,26 @@ footer {
     font-size: 1rem;
 }
 .custom-bg-shade {
-    background-color: #dddddd; /* Define your desired color using a hexadecimal value or any other supported color format */
+    background-color: #dddddd; 
 }
-/* Add this CSS to your existing stylesheet */
 
-/* Projects Section */
+
 #projects .border {
-    border: 1px solid #ddd; /* Add a light visible border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow to the boxes */
+    border: 1px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 #projects .btn {
-    border-color: #17a2b8; /* Set the border color of the button */
-    color: #17a2b8; /* Set the text color of the button */
-    transition: background-color 0.3s; /* Add transition effect */
+    border-color: #17a2b8; 
+    color: #17a2b8; 
+    transition: background-color 0.3s; 
 }
 
 #projects .btn:hover {
-    background-color: #17a2b8; /* Change background color on hover */
-    color: #fff; /* Change text color on hover */
+    background-color: #17a2b8; 
+    color: #fff; 
 }
 .icon {
     margin: 10px;
-    font-size: 2em; /* Adjust the size as needed */
+    font-size: 2em; 
 }
