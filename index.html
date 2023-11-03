@@ -15,6 +15,7 @@
     <title>Portfolio</title>
 </head>
 <body>
+    <span id="home" ></span>
     <header>
         <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
             <div class="container-fluid">
@@ -35,14 +36,14 @@
             </div>
           </nav>
     </header>
-
+    
     <section id="home" class="bg-dark text-white py-5">
         
         <div class="container text-center">
-            <img src="20220914_165823.jpg" alt="Your Image" class="img-fluid mb-4" style="max-width: 300px;">
+            <img src="20220914_165823-removebg.png" alt="Your Image" class="img-fluid mb-4" style="max-width: 300px;">
             <h1 class="mb-3">Hi,</h1>
             <h2 class="mb-3">I am Nandini</h2>
-            <h3> Fresher trained in Full-stack web development</h3>
+            <h3> Fresher trained in Full-stack developer</h3>
            
             <a href="https://www.linkedin.com/in/nandini-bakka-a9695417b/" target="_blank"><i class="fab fa-linkedin icon"></i></a>
             <a href="https://github.com/nandinibakka456" target="_blank"><i class="fab fa-github icon"></i></a>
@@ -66,14 +67,16 @@
                         </a>
                     </div>
                 </div>
+               
 
             </div>
-            
+            <span id="education"></span>
     </section>
     
  <!-- Education Section -->
-<section id="education" class="bg-light py-5">
+<section  class="bg-light py-5">
     <div class="container">
+       
         <h2 class="text-center mb-4">Education</h2>
         <div class="row">
             <!-- Bachelor Box -->
@@ -103,6 +106,7 @@
             </div>
         </div>
     </div>
+    <span id="projects" ></span>
 </section>
 
 
@@ -110,7 +114,7 @@
 
 
 <!-- Projects Section -->
-<section id="projects" class="custom-bg-shade py-5">
+<section class="custom-bg-shade py-5">
     <div class="container">
         <h2 class="text-center mb-4">Projects</h2>
         <div class="row">
@@ -137,6 +141,7 @@
             </div>
         </div>
     </div>
+    <span  id="skills"></span>
 </section>
 
 
@@ -144,7 +149,7 @@
 
 
  <!-- Skills Section -->
-<section id="skills" class="bg-light py-5">
+<section class="bg-light py-5">
     <div class="container">
         <h2 class="text-center mb-4">Skills</h2>
         <div class="row">
@@ -185,12 +190,13 @@
             </div>
         </div>
     </div>
+    <span id="certificates"></span>
 </section>
 
 
 
     <!-- Certificates Section -->
-    <section id="certificates" class="bg-secondary py-5">
+    <section  class="bg-secondary py-5">
         <div class="container">
             <h2 class="text-center mb-4">Certificates</h2>
             <div class="row justify-content-center">
@@ -206,10 +212,11 @@
                 </div>
             </div>
         </div>
+        <span id="contact" ></span>
     </section>
 
 <!-- Contact Section -->
-<section id="contact" class="bg-light py-5">
+<section class="bg-light py-5">
     <div class="container">
         <h2 class="text-center mb-4">Contact</h2>
         <div id="thankYouMessage" class="text-center" style="display: none;">
@@ -257,7 +264,7 @@ form.addEventListener("submit", e => {
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        // Show the thank you message
+       
         document.getElementById("thankYouMessage").style.display = "block";
     })
     .catch(error => console.error('Error:', error));
